@@ -1,28 +1,34 @@
 ## Установка и запуск
 
 1. Клонируйте репозиторий:
+```
 git clone https://github.com/softxoxo/test_4.git
-
+```
 2. Перейдите в директорию проекта:
+```
 cd test_4
-
-3. Установите зависимости:
+```
+4. Установите зависимости:
+```
 npm install
-
-4. Создайте файл `.env` и укажите в нем соответствующие значения для вашей базы данных.
+```
+5. Создайте файл `.env` и укажите в нем соответствующие значения для вашей базы данных.
+```
 DB_HOST=localhost
 DB_PORT=5432
 DB_NAME=postgres
 DB_USER=postgres
 DB_PASSWORD=test
-
-5. Скомпилируйте TypeScript:
+```
+6. Скомпилируйте TypeScript:
+```
 npm run build
-
-6. Запустите проект:
+```
+7. Запустите проект:
+```
 npm start
-
-7. Создайте таблицу "tasks" в postgress
+```
+8. Создайте таблицу "tasks" в postgress
 ```
 CREATE TABLE tasks (
   id SERIAL PRIMARY KEY,
