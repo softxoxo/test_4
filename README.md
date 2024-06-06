@@ -23,6 +23,7 @@ npm run build
 npm start
 
 7. Создайте таблицу "tasks" в postgress
+```
 CREATE TABLE tasks (
   id SERIAL PRIMARY KEY,
   title VARCHAR(255) NOT NULL,
@@ -31,7 +32,7 @@ CREATE TABLE tasks (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
+```
 ## Примеры запросов в Insomnia
 
 1. Создание новой задачи:
